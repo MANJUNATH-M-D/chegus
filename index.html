@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="favicon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Chegus</title>
+
+</head>
+<body>
+<section class="container">
+<div class="sidenav">
+  <a href="#"><img  src="LOGO.png"></a>
+  <a href="#about">HOME</a>
+  <!-- about start -->
+  <button class="dropdown-btn">ABOUT US 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>    About us</a>
+    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>   Management</a>
+  </div>
+   <!-- about end -->
+  <a href="#clients">CAREERS</a>
+  <a href="#contact">GALLERY</a>
+  <!-- PRODUCT DROP DOWN START -->
+  <button class="dropdown-btn">PRODUCTS 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>   GENIE - GEN(Non Life)</a>
+    <a href="#"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>   GENIE - LIFE(life)</a>
+    <a href="#"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>   GENIE - RE (Reinsurence)</a>
+    <a href="#"> <i class="fa fa-angle-double-right" aria-hidden="true"></i>   GENIE - ERP(commodities)</a>
+    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>    GENIE - ERP(Manufacturing)</a>
+    <a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>    Technologies</a>
+  </div>
+  <!-- PRODUCT DROP DOWN END -->
+  <a href="#">NEWS</a>
+  <a href="#">CONTACT</a>
+</div>
+
+<div class="main">
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 5</div>
+          <img src="./img/01.jpg" style="width:100%">
+    
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 5</div>
+          <img src="./img/02.jpg" style="width:100%">
+          
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 5</div>
+          <img src="./img/03.jpg" style="width:100%">
+         
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 5</div>
+            <img src="./img/04.jpg" style="width:100%">
+        
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 5</div>
+            <img src="./img/image-slider-4.jpg" style="width:100%">
+            
+          </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+        </div>
+</div>
+
+<div class="news">
+    <marquee behavior="scroll" onmouseover="this.stop();" onmouseout="this.start();" direction="up" scrolldelay="0">
+
+
+        <sup  class="new">New***</sup>
+        <h4 align="justify">
+        Chegus Infotech organized
+        <strong style="color:#990000;">"IT Seminar in Association with ASSAR (Association des ASSUREURS du Rwanda) on on 18th September 2018".</strong></h4>
+        <strong style="color:#008040;">Venue: UBUMWE Grande Hotel, Kigali City Center, Kigali, Rwanda.</strong>
+        <br><br>
+            
+            
+        <sup  class="new">New***</sup>
+        <h4 align="justify">
+        Chegus Infotech Attended
+        <strong style="color:#990000;">"The 45th AIO Conference and Annual General Assembly", From from 6th - 9th May 2018, at at Labadi Beach Hotel, Accra, Ghana.</strong></h4>
+        <strong style="color:#008040;">        Theme: Innovation, Risk, and the Future of Insurance in Emerging Markets </strong>
+        <br><br>
+        
+        <sup  class="new">New***</sup>
+        <h4 align="justify">
+        Chegus Infotech  Attended
+        <strong style="color:#990000;">"The 42nd FANAF Conference and General Assembly", from 12th -15th February 2018 at Kigali Convention Center, Kigali, Rwanda.</strong></h4>
+        <strong style="color:#008040;">Theme: "African Insurance on the Disruption Test"</strong>
+        <br><br>
+        
+        <sup  class="new">New***</sup>
+        <h4 align="justify">
+        Chegus Infotech  Attended
+        <strong style="color:#990000;">"The 11th India Rendezvous", from 17th -19th January 2018 at the Taj Lands End Mumbai, India.</strong></h4>
+        <strong style="color:#008040;">Theme: "The New World of Reinsurance in India"</strong>
+        <br><br>
+        
+        
+        
+            </marquee>
+</div>
+
+<div class="bottom">
+    <p>Chegus InfoTech is a product development oriented Software company focused on Core Insurance and Banking domains. Chegus is a privately owned Group which started its operations in 2008.</p>
+    <p>The Software development business was conceptualized in Nov 2012 and Chegus InfoTech was formed in March 2013 in the city of Bangalore, India . Currently, our focus is development of applications related to Insurance industry and our next target is to expand into financial products for small & medium scale financial institutions.
+
+    </p>
+</div>
+
+</section>
+
+<script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+</script>
+
+<!-- slide Show -->
+
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+
+</body>
+</html> 
